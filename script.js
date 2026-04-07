@@ -7,8 +7,8 @@ function abrirGaleria() {
 
   setTimeout(() => {
     galeria.classList.add("ativa");
-    document.body.style.overflow = "auto"; // 🔥 libera scroll
-  }, 300);
+    document.body.style.overflow = "auto";
+  }, 400);
 
   musica.play();
 }
@@ -21,6 +21,6 @@ function voltar() {
 
   setTimeout(() => {
     inicio.classList.add("ativa");
-    document.body.style.overflow = "hidden"; // 🔥 trava de novo
-  }, 300);
+    document.body.style.overflow = "hidden";
+  }, 400);
 }
