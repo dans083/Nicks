@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nicolly 💚</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- 🎧 MÚSICA -->
+  <audio id="musica" loop>
+    <source src="musica.mp3" type="audio/mp3">
+  </audio>
+
+  <!-- TELA INICIAL -->
+  <section class="tela ativa" id="inicio">
+    <div class="conteudo">
+      <h1 class="glitch">Nicolly</h1>
+      <p>feito especialmente pra maluca 💚</p>
+      <button onclick="abrirGaleria()">Entrar</button>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section class="tela" id="galeria">
+    <div class="overlay"></div>
+
+    <div class="conteudo">
+      <h2>Momentos 💚</h2>
+
+      <div class="grid">
+        <img src="foto1.jpg">
+        <img src="foto2.jpg">
+        <img src="foto3.jpg">
+
+        <video controls>
+          <source src="video.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <p class="legenda">
+        Nicolly, uma pessoa doida e viciada na Billie💚
+      </p>
+
+      <button onclick="voltar()">Voltar</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
